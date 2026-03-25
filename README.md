@@ -41,7 +41,7 @@ Sve interaktivnosti dolaze iz **Bootstrap JS-a** (modal, hamburger, accordion, c
 
 ```bash
 # 1. Kloniraj
-git clone https://github.com/[username]/ironzone-gym.git
+git clone https://github.com/bozoperic/ironzone-gym.git
 cd ironzone-gym
 
 # 2. Napravi branch
