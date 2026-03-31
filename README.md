@@ -26,9 +26,9 @@ Sve interaktivnosti dolaze iz **Bootstrap JS-a** (modal, hamburger, accordion, c
 
 | Uloga | Učenik | Branch(evi) | Zadatak |
 |-------|--------|-------------|---------|
-| **Lead Developer** | *(upišite ime)* | `feature/hero-navigacija` + `feature/kontakt-footer` | Navbar, Hero, Modal, Kontakt forma, Footer, koordinacija |
-| **UI & Content Dev** | *(upišite ime)* | `feature/programi` | Sekcija programa s 6 kartica + custom CSS za te sekcije |
-| **Content Developer** | *(upišite ime)* | `feature/cjenik` + `feature/raspored-faq` | Pricing kartice, Tablica rasporeda, FAQ accordion |
+| **Lead Developer** | Helena Barać | `feature/hero-navigacija` + `feature/kontakt-footer` | Navbar, Hero, Modal, Kontakt forma, Footer, koordinacija |
+| **UI & Content Dev** | Slavica Nikolina Stanić | `feature/programi` | Sekcija programa s 6 kartica + custom CSS za te sekcije |
+| **Content Developer** | Andrea Ištuk | `feature/cjenik` + `feature/raspored-faq` | Pricing kartice, Tablica rasporeda, FAQ accordion |
 
 > S 3 člana, konflikti u `index.html` su vjerojatniji jer svi diraju isti fajl.
 > **Dogovorite redoslijed sekcija odmah na početku** i unesite ga na dno ovog README-a.
