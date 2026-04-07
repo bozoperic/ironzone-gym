@@ -174,15 +174,15 @@ ironzone-gym/
 
 | Redoslijed | Sekcija | Radi |
 |------------|---------|------|
-| 1 | Alert (promo) | ANDREA IŠTUK |
-| 2 | Navbar | Lead Dev |
-| 3 | Hero + Modal | Lead Dev |
+| 1 | Alert (promo) | SLAVICA NIKOLINA STANIĆ |
+| 2 | Navbar | HELENA BARAĆ |
+| 3 | Hero + Modal | HELENA BARAĆ |
 | 4 | Programi | SLAVICA NIKOLINA STANIĆ |
-| 5 | Cjenik | SLAVICA NIKOLINA STANIĆ |
-| 6 | Raspored | SLAVICA NIKOLINA STANIĆ |
+| 5 | Cjenik | ANDREA IŠTUK |
+| 6 | Raspored | ANDREA IŠTUK |
 | 7 | FAQ | ANDREA IŠTUK |
-| 8 | Kontakt | Lead Dev |
-| 9 | Footer | Lead Dev |
+| 8 | Kontakt | HELENA BARAĆ |
+| 9 | Footer | HELENA BARAĆ |
 
 ---
 
