@@ -1,0 +1,151 @@
+/* css/style.css */
+
+body {
+    background: linear-gradient(to bottom, #111, #4C0827);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    color: whitesmoke;
+}
+
+.navbar {
+    background: #111;
+}
+
+.hero {
+    min-height: 100vh;
+    background:
+        linear-gradient(to right, #000000e6, #4C0827);
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* DUGMAD U NAVBAR I HERO */
+.btn-primary {
+    background-color: #4C0827;
+    border: none;
+}
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #4C0827 !important;
+    border: none;
+    transition: 0.3s;
+    transform: translateY(-3px) scale(1.00);
+}
+
+/* DUGME U KONTAKTU */
+.btn-custom {
+  background: white;
+  color: rgb(59, 57, 57);
+  border: none;
+}
+.btn-custom:hover {
+  background: #f2f2f2;
+}
+
+/* FOOTER */
+footer {
+    background: #4C0827;
+}
+.linkfooter {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* MODAL                 ovo valja (helena barać)*/
+    .modal-css {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+    /* prikaz modala */
+    .modal-css:target {
+        display: flex;
+    }
+    /* dialog */
+    .modal-dialog-css {
+        width: 100%;
+        max-width: 500px;
+    }
+    /* content */
+    .modal-content-css {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        animation: fadeIn 0.3s ease;
+    }
+    /* header */
+    .modal-header-css {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* body */
+    .modal-body-css {
+        padding: 20px;
+    }
+    /* close button */
+    .close {
+        text-decoration: none;
+        font-size: 22px;
+        color: black;
+    }
+    /* animacija */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+/* ===========================
+   MOBILE - do 680px
+=========================== */
+@media (max-width: 680px) {
+    /* Hero naslov i podnaslov skaliranje */
+    .hero h1 {
+        font-size: 50px !important; /* sniženo sa 100px */
+    }
+    .hero p {
+        font-size: 20px !important; /* sniženo sa 40px */
+    }
+}
+
+/* ===========================
+   TABLET - 681px do 1024px
+=========================== */
+@media (min-width: 681px) and (max-width: 1024px) {
+    /* Hero naslov i podnaslov skaliranje */
+    .hero h1 {
+        font-size: 80px !important; /* manja od desktop, veća od mobile */
+    }
+    .hero p {
+        font-size: 35px !important;
+    }
+
+    /* Treneri sekcija - ostaje kao na desktopu */
+    #treneri .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+/* HELENA OVO GORE */
