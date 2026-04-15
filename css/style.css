@@ -5,15 +5,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* ALERT                   ovaj kod valja*/
-#close-alert:checked+.alert-box {
-    display: none;
-}
-.btn-close {
-    float: right;
-    cursor: pointer;
-} 
-
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
 }
@@ -45,20 +36,6 @@ h2 {
     border: none;
     transition: 0.3s;
     transform: translateY(-3px) scale(1.00);
-}
-/* KARTICE */
-.trainer-card img {
-    height: 200px;
-    object-fit: cover;
-}
-
-.card {
-    border: none;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-8px) scale(1.02);
 }
 
 /* DUGME U KONTAKTU */
@@ -142,32 +119,3 @@ footer {
 
 /* ===========================
    MOBILE - do 680px
-=========================== */
-@media (max-width: 680px) {
-    /* Hero naslov i podnaslov skaliranje */
-    .hero h1 {
-        font-size: 50px !important; /* sniženo sa 100px */
-    }
-    .hero p {
-        font-size: 20px !important; /* sniženo sa 40px */
-    }
-}
-
-/* ===========================
-   TABLET - 681px do 1024px
-=========================== */
-@media (min-width: 681px) and (max-width: 1024px) {
-    /* Hero naslov i podnaslov skaliranje */
-    .hero h1 {
-        font-size: 80px !important; /* manja od desktop, veća od mobile */
-    }
-    .hero p {
-        font-size: 35px !important;
-    }
-
-    /* Treneri sekcija - ostaje kao na desktopu */
-    #treneri .col-md-3 {
-        flex: 0 0 25%;
-        max-width: 25%;
-    }
-} 
